@@ -7,8 +7,8 @@ Reveal.addEventListener('treeslide', function () { initTree(); });
 
 
 var initTree = function () {
-    var width = 960,
-        height = 500;
+    var width = 800,
+        height = 1500;
 
     var tree = d3.layout.tree()
         .size([height, width - 160]);
