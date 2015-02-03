@@ -9,6 +9,31 @@
     text-anchor: end;
 }
 
+/*
 text {
     font: 10px sans-serif;
+}
+*/
+
+
+
+
+/* the tree layout */
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.node {
+    font: 14px sans-serif;
+    fill: red;
+    color: white;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
 }
